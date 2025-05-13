@@ -27,7 +27,7 @@ function spaFallback(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/kickbox_third/',
+  base: '/kickbox_fourth/',
   plugins: [
     vue({
       template: { transformAssetUrls },

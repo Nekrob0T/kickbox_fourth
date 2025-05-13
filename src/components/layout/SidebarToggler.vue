@@ -1,5 +1,11 @@
 <template>
-  <q-btn dense flat round icon="menu" @click="layout.toggleSidebar()" />
+  <q-btn
+    dense
+    flat
+    round
+    icon="menu"
+    @click="layout.toggleSidebar()"
+  />
 </template>
 
 <script setup lang="ts">

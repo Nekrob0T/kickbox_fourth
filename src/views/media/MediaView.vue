@@ -1,5 +1,8 @@
 <template>
-  <base-block offset="responsive" class="content">
+  <base-block
+    offset="responsive"
+    class="content"
+  >
     <h1>Piotr Siegoczyński w mediach</h1>
     <h3>Zobacz, co o mnie piszą i mówią:</h3>
 
@@ -12,8 +15,11 @@
           target="_blank"
           class="media__link"
           :draggable="false"
-          ><span>{{ item.title }}</span> <img src="@/assets/img/open-in-new.svg" alt="" :draggable="false"
-        /></a>
+        ><span>{{ item.title }}</span> <img
+          src="@/assets/img/open-in-new.svg"
+          alt=""
+          :draggable="false"
+        ></a>
       </div>
     </div>
   </base-block>

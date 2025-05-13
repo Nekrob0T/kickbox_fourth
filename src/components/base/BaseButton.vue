@@ -1,5 +1,5 @@
 <template>
-  <q-btn flat :label="label ?? 'Button'" ripple class="base-button" :class="cssClass" :to="to"></q-btn>
+  <q-btn flat :label="label ?? 'Button'" ripple class="base-button" :class="cssClass" :to="to" :type="type"></q-btn>
 </template>
 
 <script setup lang="ts">
@@ -10,9 +10,11 @@ const props = withDefaults(
   defineProps<{
     variant?: 'primary';
     label?: string;
+    type?: 'button' | 'submit'
     to?: RouteLocation;
   }>(),
   {
+    type: 'button',
     variant: 'primary',
   },
 );

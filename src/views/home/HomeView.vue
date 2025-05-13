@@ -1,14 +1,17 @@
 <template>
-  <base-block offset="responsive" class="content">
+  <base-block
+    offset="responsive"
+    class="content"
+  >
     <home-motivation />
     <home-storytelling />
-    <home-feedback />
+    <home-contact />
   </base-block>
 </template>
 
 <script setup lang="ts">
 import { BaseBlock } from '@/components/base';
-import { HomeContact, HomeMotivation, HomeStorytelling, HomeFeedback, HomeOtherLife } from '@/components/home';
+import { HomeContact, HomeMotivation, HomeStorytelling } from '@/components/home';
 import { useMeta } from '@/composable/useMeta.ts';
 
 const { titleAuthor } = useMeta();

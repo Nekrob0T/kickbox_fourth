@@ -1,16 +1,17 @@
 :root {
   --primary-bg: #ffffff;
-  --secondary-bg: #f7f7f7;
-  --tertiary-bg: #ededed;
+  --secondary-bg: #f5f7fa;
+  --tertiary-bg: #e0e6ed;
 
-  --primary-text: #1a1a1a;
-  --secondary-text: #5a5a5a;
+  --primary-text: #1e1e2f;
+  --secondary-text: #4a4a68;
 
-  --brand: #ff3366;
-  --brand-hover: #ff6699;
+  --brand: #2b4c7e;
+  --brand-hover: #3c5d9c;
 
-  --link: #ff3366;
-  --link-hover: #ff88aa;
+  --link: #365e91;
+  --link-hover: #5c85c1;
 
   --app-max-width: 1140px;
 }
+

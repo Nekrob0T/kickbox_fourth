@@ -1,5 +1,8 @@
 <template>
-  <base-block offset="responsive" class="content">
+  <base-block
+    offset="responsive"
+    class="content"
+  >
     <h1>Droga przez ring</h1>
     <p>
       Każdy medal, każda walka, to osobna historia. Pierwszy tytuł Mistrza Polski zdobyłem jako młody chłopak pełen

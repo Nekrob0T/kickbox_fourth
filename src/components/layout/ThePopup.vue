@@ -1,10 +1,20 @@
 <template>
   <teleport to="body">
-    <div ref="popup" class="popup">
+    <div
+      ref="popup"
+      class="popup"
+    >
       <div class="popup__overlay" />
-      <q-icon class="popup__close" name="close" @click="layout.closePopup()" />
+      <q-icon
+        class="popup__close"
+        name="close"
+        @click="layout.closePopup()"
+      />
       <div class="popup__modal">
-        <gallery-card :item="layout.popup" is-wide />
+        <gallery-card
+          :item="layout.popup"
+          is-wide
+        />
       </div>
     </div>
   </teleport>

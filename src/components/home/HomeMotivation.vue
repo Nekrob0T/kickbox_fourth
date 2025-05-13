@@ -1,7 +1,13 @@
 <template>
   <div class="motivation">
-    <img src="@/assets/img/training.jpg" alt="" :draggable="false" />
-    <h2 class="motivation__text">Piotr Siegoczyński <br />Mistrz. Trener. Inspiracja<br /></h2>
+    <img
+      src="@/assets/img/training.jpg"
+      alt=""
+      :draggable="false"
+    >
+    <h2 class="motivation__text">
+      Piotr Siegoczyński <br>Walka to nie wszystko. Liczy się droga<br>
+    </h2>
   </div>
 </template>
 

@@ -33,15 +33,18 @@ import { BaseBlock } from '@/components/base';
 const stories = [
   {
     title: 'Czym jest dla mnie sport',
-    description: 'Sport to nie tylko rywalizacja. To przede wszystkim samodyscyplina, szacunek i codzienna praca nad sobą. Przez lata nauczyłem się, że największe zwycięstwa rozgrywają się wewnątrz nas.',
+    description:
+      'Sport to nie tylko rywalizacja. To przede wszystkim samodyscyplina, szacunek i codzienna praca nad sobą. Przez lata nauczyłem się, że największe zwycięstwa rozgrywają się wewnątrz nas.',
   },
   {
     title: 'Jak trenuję innych',
-    description: 'Każdy z nas ma inny cel i inną drogę. Moim zadaniem jest pomóc Ci ją odnaleźć i przejść. Niezależnie od wieku, poziomu czy doświadczenia — stawiam na indywidualne podejście i wzmacnianie nie tylko ciała, ale i charakteru.',
+    description:
+      'Każdy z nas ma inny cel i inną drogę. Moim zadaniem jest pomóc Ci ją odnaleźć i przejść. Niezależnie od wieku, poziomu czy doświadczenia — stawiam na indywidualne podejście i wzmacnianie nie tylko ciała, ale i charakteru.',
   },
   {
     title: 'Dlaczego warto mi zaufać',
-    description: '30 lat na ringu. Mistrz świata. Trener z pasją. Ale przede wszystkim — człowiek, który nie przestaje się uczyć i słuchać innych. Sukces to nie przypadek – to konsekwencja wartości, które wyznaję od początku.',
+    description:
+      '30 lat na ringu. Mistrz świata. Trener z pasją. Ale przede wszystkim — człowiek, który nie przestaje się uczyć i słuchać innych. Sukces to nie przypadek – to konsekwencja wartości, które wyznaję od początku.',
   },
 ];
 </script>

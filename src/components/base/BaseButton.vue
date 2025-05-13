@@ -10,7 +10,7 @@ const props = withDefaults(
   defineProps<{
     variant?: 'primary';
     label?: string;
-    type?: 'button' | 'submit'
+    type?: 'button' | 'submit';
     to?: RouteLocation;
   }>(),
   {

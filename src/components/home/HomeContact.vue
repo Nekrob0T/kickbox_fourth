@@ -1,23 +1,40 @@
 <template>
-    <base-block
-      class="contact"
-      variant="tertiary"
-    >
-      <h3>Masz pytanie? Chcesz rozpocząć trening?</h3>
-      <form @submit.prevent="submitForm">
-        <input type="text" required name="name" placeholder="Twoje imię">
-        <input type="email" required name="email" placeholder="Twój email">
-        <textarea name="comment" required placeholder="Twoje pytanie" />
-        <base-button type="submit" label="Napisz mnie" />
-      </form>
-    </base-block>
+  <base-block
+    class="contact"
+    variant="tertiary"
+  >
+    <h3>Masz pytanie? Chcesz rozpocząć trening?</h3>
+    <form @submit.prevent="submitForm">
+      <input
+        type="text"
+        required
+        name="name"
+        placeholder="Twoje imię"
+      >
+      <input
+        type="email"
+        required
+        name="email"
+        placeholder="Twój email"
+      >
+      <textarea
+        name="comment"
+        required
+        placeholder="Twoje pytanie"
+      />
+      <base-button
+        type="submit"
+        label="Napisz mnie"
+      />
+    </form>
+  </base-block>
 </template>
 
 <script setup lang="ts">
 import { BaseBlock, BaseButton } from '@/components/base';
 
 function submitForm() {
-  alert('Odesłano')
+  alert('Odesłano');
 }
 </script>
 
